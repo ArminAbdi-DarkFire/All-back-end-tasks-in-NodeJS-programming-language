@@ -1,0 +1,1 @@
+const _ = require("lodash")console.log("\n")console.log(_.defaults({a: 91, b: 3}, {a: 5, c: 9}))console.log("\n")console.log(_.defaults({a: 91, b: 3, a: 89}, {a: 5, c: 9}))console.log("\n")console.log(_.partition([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], (n) => n % 2))

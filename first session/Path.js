@@ -1,0 +1,1 @@
+const path = require( "path" )console.log( "\n" )// show address file localconsole.log( __filename )console.log( "\n" )// show address file In a special orderconsole.log( path.parse( __filename ) )
