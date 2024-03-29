@@ -75,7 +75,7 @@ async function deleteCourse(id) {
     }
 }
 
-saved()
+//saved()
 // findCourse()
 // updateCourse("66035f603f3a300865cce874","Armin Abdi","200000000")
 // deleteCourse("66035df31d7a27efdf0680c1")
