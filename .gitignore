@@ -1,6 +1,5 @@
+package-lock.json/
+test/
 node_modules/
 .idea/
 .vscode/
-package-lock.json/
-test/
-.eslintrc.js
