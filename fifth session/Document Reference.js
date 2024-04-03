@@ -1,6 +1,5 @@
 const mongoose = require("mongoose")
 
-
 mongoose
     .connect("mongodb://localhost:27017/DarkFireCompany")
     .then(() => {
@@ -9,7 +8,6 @@ mongoose
     .catch((e) => {
         console.log(e.message)
     })
-
 
 const teacherModel = mongoose.model('teacher', new mongoose.Schema({
     name: {type: String, min: 3, max: 8, required: true}, bio: String, website: String
@@ -53,5 +51,5 @@ async function listCourses() {
 }
 
 // createTeacher("Armin", "Dark Fire", "DarkFireCompany.com")
-// createCourse("node js", "660c95f3e707e89c36a5658c")
-listCourses()
+// createCourse("Node.js", "660c95f3e707e89c36a5658c")
+// listCourses()
