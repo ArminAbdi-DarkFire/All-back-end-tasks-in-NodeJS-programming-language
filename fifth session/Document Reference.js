@@ -51,5 +51,5 @@ async function listCourses() {
 }
 
 // createTeacher("Armin", "Dark Fire", "DarkFireCompany.com")
-// createCourse("Node.js", "660c95f3e707e89c36a5658c")
+createCourse("Node.js", "660f278441be1921630a4885")
 // listCourses()
