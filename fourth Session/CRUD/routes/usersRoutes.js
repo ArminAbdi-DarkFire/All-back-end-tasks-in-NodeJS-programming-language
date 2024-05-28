@@ -1,12 +1,13 @@
 const express = require("express");
 
 const modelUser = require("../models/usersModel");
+
 const {
   validatorCreateUser,
   validatorUpdateUser,
 } = require("../validators/userValidator");
 
-const router = express.Router();
+const router = express.Router();   
 
 router.get("/api/users", async (req, res) => {
   const allUsers = await modelUser.find();
